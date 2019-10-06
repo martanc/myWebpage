@@ -7,27 +7,83 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: url(../images/back.jpg) ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    overflow:scroll;
 }
 body {
   /*background-color: #B0E0E6;*/
-  margin-left: 100px;
-  margin-right: 100px;
-    padding-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
 }
-h1{
-  text-align: center;
-  color: white;
-  background-color: #162184;
-  font-size: 25px;
+header{
+    text-align: center;
+    color: white;
+    background-color: black; /* #162184;*/
+    margin-top:0px;
+    font-size: 25px;
     padding: 5px;
 }
-p {
-    margin: 10px;
-}
 div {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    display: flex;
+    background: rgba(240, 255, 255, 0.5);
+    border: 3px;
+    border-style: solid;
+    border-color: cadetblue;
 }
-
-
+#pic {
+    border: 3px;
+    border-style: solid;
+    border-color: cadetblue;
+}
+#iniBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    border: 3px;
+    border-style: solid;
+    border-color: cadetblue;
+    align-items: center;
+}
+#secBox {
+    display: inline-block;
+    align-items: center;
+    background: rgba(240, 255, 255, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+    border: none;
+    
+}
+#det1 {
+    display: inline-block;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 10px;
+}
+#det {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 15px;
+    width: 100%;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
