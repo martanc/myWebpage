@@ -1,0 +1,33 @@
+
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(../images/back.jpg) ;
+}
+body {
+  /*background-color: #B0E0E6;*/
+  margin-left: 100px;
+  margin-right: 100px;
+    padding-bottom: 0px;
+}
+h1{
+  text-align: center;
+  color: white;
+  background-color: #162184;
+  font-size: 25px;
+    padding: 5px;
+}
+p {
+    margin: 10px;
+}
+div {
+    margin: 10px;
+}
+
+
